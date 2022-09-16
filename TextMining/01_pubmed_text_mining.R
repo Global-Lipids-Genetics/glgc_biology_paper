@@ -25,13 +25,13 @@
 # close(fileConn)
 
 library(tidyverse)
-dd  <- read_delim("s5s6_puberrator_regex_output_20210508.txt",delim = "\t",quote = "",col_names = F)
+dd  <- read_delim("pops_plus_puberrator_regex_output_20220306.txt",delim = "\t",quote = "",col_names = F)
 colnames(dd) <- c("Input List","PMID","PublicationDate","Match #","Matching terms","Article Title")
 
 dd <- dd[dd$`Match #` !=1,]
 dd <- dd[-1,]
 
-genes <- read.table("s5s6_gene.txt")$V1
+genes <- read.table("../pops_plus.txt")$V1
 genes <- tolower(genes)
 
 lipids <- read.delim("lipids.txt",header = F)$V1
@@ -45,13 +45,12 @@ dd$keep <-as.character(apply(dd, 1, keep))
 final <- dd[dd$keep == T,]
 final <- unique(final)
 
-
 terms <- unlist(strsplit(final$`Matching terms`,", "))
 count <- as.data.frame(table(terms)) 
 
 genes_count <- count[count$terms %in% genes,]
 gene_count_zero <- setdiff(genes,genes_count$terms)
-tmp <- data.frame(gene_count_zero,rep(0,6))
+tmp <- data.frame(gene_count_zero,rep(0,23))
 colnames(tmp) <- c("terms","Freq")
 
 genes_count <- rbind(genes_count,tmp)
@@ -62,5 +61,5 @@ genes_count$terms <- toupper(genes_count$terms)
 final$`Match #` <- as.numeric(final$`Match #`)
 final <- final[order(final$`Match #`,decreasing = T),]
 
-write.table(final, "textmine_s5s6_wo_mendelian.txt", quote = F, sep = "\t",row.names = F)
-write.csv(genes_count,"textmine_s5s6_wo_mendelian_gene_count.csv",row.names = F, quote = F)
+write.table(final, "textmine_pops_plus.txt", quote = F, sep = "\t",row.names = F)
+write.csv(genes_count,"textmine_pops_plus_count.csv",row.names = F, quote = F)
