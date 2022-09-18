@@ -1,0 +1,562 @@
+phenotype_name	level_of_relevance
+decreased circulating LDL cholesterol level	3
+decreased circulating cholesterol level	3
+decreased circulating VLDL cholesterol level	3
+decreased triglyceride level	3
+decreased liver triglyceride level	3
+decreased circulating free fatty acid level	3
+increased circulating LDL cholesterol level	3
+increased circulating VLDL cholesterol level	3
+decreased intestinal cholesterol absorption	3
+abnormal lipid homeostasis	3
+decreased fatty acid level	3
+decreased circulating triglyceride level	3
+abnormal circulating HDL cholesterol level	3
+abnormal circulating cholesterol level	3
+abnormal circulating triglyceride level	3
+increased circulating cholesterol level	3
+increased liver cholesterol level	3
+increased liver triglyceride level	3
+increased circulating triglyceride level	3
+increased circulating HDL cholesterol level	3
+increased circulating phospholipid level	3
+abnormal cellular cholesterol metabolism	3
+abnormal cholesterol homeostasis	3
+decreased circulating HDL cholesterol level	3
+abnormal lipid level	3
+abnormal triglyceride level	3
+increased cholesterol level	3
+abnormal phospholipid level	3
+increased fatty acid oxidation	3
+increased fatty acid beta-oxidation	3
+increased triglyceride level	3
+abnormal lipolysis	3
+decreased circulating glycerol level	3
+abnormal fatty acid level	3
+increased circulating free fatty acid level	3
+abnormal circulating free fatty acids level	3
+decreased liver cholesterol level	3
+decreased unsaturated fatty acid level	3
+decreased saturated fatty acid level	3
+abnormal ceramide level	3
+abnormal sphingomyelin level	3
+increased saturated fatty acid level	3
+increased fatty acid level	3
+enhanced lipolysis	3
+abnormal free fatty acids level	3
+increased circulating VLDL triglyceride level	3
+impaired lipolysis	3
+lipidosis	3
+abnormal circulating lipid level	3
+decreased cholesterol level	3
+decreased brain cholesterol level	3
+hyperlipidemia	3
+decreased circulating phospholipid level	3
+decreased cholesterol efflux	3
+decreased circulating VLDL triglyceride level	3
+abnormal fatty acid oxidation	3
+abnormal circulating LDL cholesterol level	3
+xanthoma	3
+increased cholesterol efflux	3
+increased intestinal cholesterol absorption	3
+increased lipoprotein lipase activity	3
+abnormal intestinal lipid absorption	3
+decreased liver free fatty acids level	3
+increased sterol level	3
+increased brain cholesterol level	3
+abnormal cholesterol level	3
+increased ceramide level	3
+sphingomyelinosis	3
+abnormal sphingolipid level	3
+decreased triglyceride lipase activity	3
+increased liver free fatty acids level	3
+increased glycerol level	3
+abnormal lipid metabolism	3
+abnormal circulating phospholipid level	3
+abnormal circulating phytosterol level	3
+decreased fatty acid oxidation	3
+increased prostaglandin level	3
+abnormal blood homeostasis	0
+abnormal enzyme/coenzyme activity	1
+abnormal enzyme/coenzyme level	1
+pericardial edema	1
+decreased body weight	1
+decreased susceptibility to diet-induced obesity	1
+abnormal energy expenditure	1
+increased energy expenditure	1
+increased bile salt level	1
+decreased vitamin D level	1
+abnormal circulating enzyme level	1
+weight loss	1
+decreased body temperature	0
+polyhydramnios	0
+skin edema	0
+abnormal circulating creatinine level	1
+uremia	1
+abnormal fluid regulation	0
+increased urine protein level	1
+abnormal platelet physiology	1
+decreased circulating bilirubin level	1
+abnormal cytokine level	1
+decreased susceptibility to weight gain	1
+increased lactate dehydrogenase level	1
+cachexia	1
+abnormal bile salt level	1
+abnormal bile salt homeostasis	1
+decreased circulating serum albumin level	1
+decreased leukotriene level	1
+abnormal thromboxane level	1
+increased circulating chloride level	0
+bilirubinuria	1
+increased erythrocyte sedimentation rate	1
+decreased circulating luteinizing hormone level	1
+increased circulating estradiol level	1
+increased erythrocyte protoporphyrin level	1
+increased spleen iron level	0
+impaired exercise endurance	0
+decreased spleen iron level	0
+increased kidney iron level	0
+abnormal iron homeostasis	1
+hemosiderosis	1
+abnormal kidney iron level	0
+increased circulating antidiuretic hormone level	1
+abnormal circulating hormone level	1
+decreased urine osmolality	0
+cyanosis	0
+decreased circulating prolactin level	0
+decreased prolactin level	0
+lymphedema	0
+intestinal edema	0
+abnormal circulating serum albumin level	1
+abnormal circulating total protein level	1
+increased porphyrin level	1
+abnormal nitric oxide homeostasis	1
+abnormal hormone level	1
+decreased circulating creatinine level	1
+decreased urine protein level	1
+increased prolactin level	1
+decreased circulating progesterone level	1
+increased circulating fructosamine level	1
+abnormal blood urea nitrogen level	1
+decreased circulating total protein level	1
+decreased circulating iron level	1
+decreased respiratory quotient	1
+abnormal respiratory quotient	1
+increased circulating follicle stimulating hormone level	1
+increased circulating luteinizing hormone level	1
+albuminuria	1
+increased susceptibility to weight loss	1
+increased triiodothyronine level	1
+increased thyroxine level	1
+increased circulating thyroid-stimulating hormone level	1
+increased circulating triiodothyronine level	1
+increased circulating thyroxine level	1
+abnormal thyroid hormone level	1
+abnormal circulating iron level	1
+decreased circulating thyroxine level	1
+increased circulating amylase level	1
+decreased circulating parathyroid hormone level	1
+decreased circulating amylase level	1
+increased circulating unsaturated transferrin level	1
+increased circulating iron level	1
+hemochromatosis	1
+abnormal glycosylated hemoglobin level	1
+decreased circulating estradiol level	1
+abnormal circulating protein level	1
+increased luteinizing hormone level	1
+decreased energy expenditure	1
+ascites	1
+chylous ascites	1
+abnormal homeostasis	1
+anoxia	1
+increased circulating ferritin level	1
+cerebral edema	1
+increased bleeding time	1
+hypokalemia	1
+subcutaneous edema	1
+pleural effusion	1
+abnormal interleukin level	1
+abnormal interferon level	1
+decreased circulating interleukin-4 level	1
+increased circulating renin level	1
+decreased circulating renin level	1
+decreased circulating angiotensinogen level	1
+increased circulating angiotensinogen level	1
+decreased thyroxine level	1
+increased circulating interferon-gamma level	1
+abnormal chemokine level	1
+increased circulating interleukin-6 level	1
+pulmonary alveolar edema	1
+increased glycosylated hemoglobin level	1
+decreased lactate dehydrogenase level	1
+abnormal circulating amylase level	1
+decreased circulating interleukin-2 level	1
+increased circulating haptoglobin level	1
+decreased liver iron level	1
+abnormal circulating thyroxine level	1
+increased circulating total protein level	1
+decreased circulating triiodothyronine level	1
+abnormal energy homeostasis	1
+increased circulating interleukin-4 level	1
+increased circulating interleukin-5 level	1
+abnormal protein level	1
+decreased circulating interferon-gamma level	1
+increased macrophage nitric oxide production	1
+increased circulating interleukin-12b level	1
+decreased urine albumin level	1
+abnormal circulating creatine kinase level	1
+decreased oxygen consumption	1
+increased susceptibility to diet-induced obesity	1
+abnormal oxygen consumption	1
+increased susceptibility to weight gain	1
+increased circulating serum albumin level	1
+abnormal kidney thrombosis	1
+increased circulating fibrinogen level	1
+increased circulating interleukin-1 beta level	1
+abnormal circulating interleukin-10 level	1
+increased circulating interleukin-13 level	1
+increased circulating interleukin-3 level	1
+abnormal circulating interleukin-4 level	1
+decreased circulating interleukin-1 beta level	1
+impaired autophagy	1
+abnormal platelet activation	1
+decreased circulating interleukin-10 level	1
+decreased bleeding time	1
+decreased prothrombin time	1
+increased partial thromboplastin time	1
+ketoaciduria	1
+increased circulating creatine kinase level	1
+decreased macrophage nitric oxide production	1
+abnormal urine osmolality	1
+increased urine glycosaminoglycan level	1
+enhanced autophagy	1
+abnormal folic acid level	1
+abnormal circulating chemokine level	1
+abnormal vitamin A metabolism	2
+decreased circulating ferritin level	1
+increased renin activity	1
+abnormal circulating angiotensinogen level	1
+decreased angiotensin I-converting enzyme activity	1
+increased angiotensin I-converting enzyme activity	1
+abnormal urine catecholamine level	1
+abnormal fat-soluble vitamin level	2
+increased circulating interleukin-17 level	1
+increased circulating interleukin-10 level	1
+abnormal circulating cytokine level	1
+abnormal circulating interleukin-6 level	1
+abnormal autophagy	1
+increased circulating interleukin-18 level	1
+abnormal platelet dense granule physiology	1
+decreased circulating interleukin-6 level	1
+decreased circulating fibrinogen level	1
+decreased circulating estrogen level	1
+decreased luteinizing hormone level	1
+abnormal renal water reabsorption	1
+enhanced exercise endurance	1
+extremity edema	1
+periorbital edema	1
+abnormal carbohydrate metabolism	1
+abnormal vitamin A level	2
+increased urine microalbumin level	1
+abnormal urine albumin level	1
+abnormal retinol metabolism	2
+increased brain iron level	1
+increased circulating interferon-beta level	1
+increased circulating prolactin level	1
+increased circulating tyrosine level	1
+hemoglobinemia	1
+decreased circulating homocysteine level	2
+abnormal retinol level	2
+abnormal cardiac thrombosis	2
+pericardial effusion	2
+abnormal thrombosis	2
+abnormal atrial thrombosis	2
+glomerular capillary thrombosis	2
+decreased circulating insulin level	2
+decreased insulin secretion	2
+increased circulating insulin level	2
+decreased circulating leptin level	2
+increased circulating leptin level	2
+insulin resistance	2
+increased insulin sensitivity	2
+increased circulating adiponectin level	2
+increased circulating ghrelin level	2
+decreased circulating adiponectin level	2
+abnormal metabolism	2
+obese	2
+increased insulin secretion	2
+abnormal insulin secretion	2
+abnormal circulating insulin level	2
+increased susceptibility to non-insulin-dependent diabetes	2
+decreased adiponectin level	2
+decreased circulating corticosterone level	2
+abnormal thyroid-stimulating hormone level	2
+increased adiponectin level	2
+abnormal insulin clearance	2
+abnormal body weight	2
+increased circulating alkaline phosphatase level	2
+increased alkaline phosphatase activity	2
+abnormal circulating alkaline phosphatase level	2
+decreased circulating alkaline phosphatase level	2
+increased liver iron level	2
+abnormal circulating glucose level	2
+impaired glucose tolerance	2
+increased circulating glucose level	2
+abnormal glucose homeostasis	2
+improved glucose tolerance	2
+increased liver glycogen level	2
+decreased circulating glucagon level	2
+increased transforming growth factor level	2
+edema	2
+hemopericardium	2
+increased circulating creatinine level	2
+decreased circulating glucose level	2
+abnormal glucose tolerance	2
+decreased platelet aggregation	2
+abnormal blood coagulation	2
+increased body weight	2
+decreased circulating growth hormone level	2
+increased circulating growth hormone level	2
+decreased circulating insulin-like growth factor I level	2
+insensitivity to growth hormone	2
+increased circulating erythropoietin level	2
+increased circulating aldosterone level	2
+decreased dopamine level	2
+increased fasting circulating glucose level	2
+decreased growth hormone level	2
+hypoglycemia	2
+decreased fasting circulating glucose level	2
+decreased taurine level	2
+increased circulating ketone body level	2
+increased basal metabolism	2
+decreased liver glycogen level	2
+increased skeletal muscle glycogen level	2
+abnormal fasting circulating glucose level	2
+abnormal hepatic glucose production	2
+decreased skeletal muscle glycogen level	2
+hyperglycemia	2
+decreased glutathione peroxidase activity	2
+abnormal response/metabolism to endogenous compounds	2
+abnormal glycogen homeostasis	2
+decreased circulating ketone body level	2
+increased circulating carnitine level	2
+decreased circulating carnitine level	2
+increased dopamine level	2
+decreased circulating fructosamine level	2
+abnormal vitamin E level	2
+abnormal growth hormone level	2
+abnormal gluconeogenesis	2
+decreased circulating aldosterone level	2
+pulmonary edema	2
+enhanced gluconeogenesis	2
+increased circulating glycerol level	2
+ketosis	2
+increased urine glucose level	2
+decreased glucokinase activity	2
+abnormal circulating fructosamine level	2
+abnormal platelet aggregation	2
+abnormal dopamine level	2
+abnormal insulin-like growth factor I level	2
+decreased susceptibility to age related obesity	2
+increased susceptibility to age related obesity	2
+increased glucagon secretion	2
+decreased prostaglandin level	2
+increased circulating glucagon level	2
+decreased glutathione level	2
+decreased circulating taurine level	2
+abnormal vitamin D level	2
+increased triglyceride lipase activity	2
+increased circulating insulin-like growth factor I level	2
+increased thyroid-stimulating hormone level	2
+decreased thyroid-stimulating hormone level	2
+increased platelet aggregation	2
+decreased glucagon secretion	2
+abnormal basal metabolism	2
+impaired gluconeogenesis	2
+abnormal renal glucose reabsorption	2
+decreased cardiac muscle glycogen level	2
+decreased urine aldosterone level	2
+abnormal circulating corticosterone level	2
+abnormal circulating pituitary hormone level	2
+abnormal ganglioside level	2
+abnormal pituitary hormone level	2
+increased circulating methionine level	2
+increased blood osmolality	2
+steatorrhea	2
+abnormal circulating insulin-like growth factor I level	2
+decreased hepatic glucose production	2
+ketoacidosis	2
+impaired blood coagulation	2
+increased cardiac muscle glycogen level	2
+abnormal circulating ketone body level	2
+decreased glycogen catabolism rate	2
+increased taurine level	2
+increased circulating alanine transaminase level	2
+increased circulating aspartate transaminase level	2
+abnormal circulating aspartate transaminase level	2
+abnormal circulating alanine transaminase level	2
+decreased circulating alanine transaminase level	2
+decreased circulating aspartate transaminase level	2
+abnormal urine homeostasis	0
+increased circulating testosterone level	0
+increased body temperature	0
+increased respiratory quotient	0
+increased oxygen consumption	0
+abnormal tumor necrosis factor level	0
+increased circulating phosphate level	0
+increased circulating bilirubin level	0
+abnormal sodium ion homeostasis	0
+abnormal circulating bilirubin level	0
+decreased circulating calcium level	0
+increased circulating corticosterone level	0
+abnormal serotonin level	0
+increased response to stress-induced hyperthermia	0
+slow postnatal weight gain	0
+increased blood urea nitrogen level	0
+abnormal amniotic fluid composition	0
+hydrops fetalis	0
+abnormal circulating phosphate level	0
+increased circulating potassium level	0
+abnormal double-strand DNA break repair	0
+increased mortality induced by gamma-irradiation	0
+increased circulating ammonia level	0
+abnormal circulating potassium level	0
+decreased circulating testosterone level	0
+increased blood uric acid level	0
+abnormal calcium ion homeostasis	0
+decreased urine magnesium level	0
+decreased urine creatinine level	0
+decreased urine potassium level	0
+abnormal zinc homeostasis	0
+increased circulating sodium level	0
+decreased urine sodium level	0
+abnormal circulating calcium level	0
+decreased salivation	0
+abnormal DNA repair	0
+increased mortality induced by ionizing radiation	0
+increased noradrenaline level	0
+decreased gamma-aminobutyric acid level	0
+decreased aspartic acid level	0
+hemoglobinuria	0
+hypoxia	0
+hematuria	0
+leukocyturia	0
+abnormal circulating mineral level	0
+increased urine microglobulin level	0
+increased urine selenium level	0
+increased circulating dihydrotestosterone level	0
+abnormal selenium level	0
+decreased blood urea nitrogen level	0
+dehydration	0
+decreased circulating phosphate level	0
+increased circulating calcium level	0
+abnormal blood uric acid level	0
+decreased erythrocyte magnesium level	0
+decreased circulating magnesium level	0
+abnormal magnesium ion homeostasis	0
+impaired skin barrier function	0
+photophobia	0
+decreased circulating potassium level	0
+abnormal nucleotide metabolism	0
+abnormal base-excision repair	0
+abnormal liver zinc level	0
+abnormal urine potassium level	0
+decreased urine chloride ion level	0
+increased circulating tumor necrosis factor level	0
+decreased core body temperature	0
+abnormal circulating amino acid level	0
+impaired adaptive thermogenesis	0
+abnormal renal calcium reabsorption	0
+increased urine calcium level	0
+increased urine uric acid level	0
+abnormal urine creatinine level	0
+increased carbon dioxide production	0
+abnormal circulating magnesium level	0
+decreased platelet serotonin level	0
+abnormal ethanol metabolism	0
+abnormal response to exercise	0
+decreased aerobic running capacity	0
+decreased circulating adrenaline level	0
+decreased susceptibility to induced hypothermia	0
+increased core body temperature	0
+abnormal amino acid metabolism	0
+decreased carbon dioxide production	0
+decreased follicle stimulating hormone level	0
+abnormal body temperature	0
+abnormal circadian temperature homeostasis	0
+abnormal circulating chloride level	0
+increased circulating homocysteine level	0
+decreased circulating cysteine level	0
+cystathioninuria	0
+abnormal mineral homeostasis	0
+abnormal renal phosphate reabsorption	0
+eyelid edema	0
+pulmonary alveolar proteinosis	0
+abnormal acute phase protein level	0
+ethylmalonic aciduria	0
+abnormal adaptive thermogenesis	0
+organic aciduria	0
+decreased circulating glycine level	0
+abnormal exercise endurance	0
+increased circulating lactate level	0
+decreased mortality induced by ionizing radiation	0
+abnormal DNA replication	0
+impaired febrile response	0
+increased heart iron level	0
+abnormal circulating unsaturated transferrin level	0
+decreased circulating unsaturated transferrin level	0
+decreased circulating sodium level	0
+decreased circulating follicle stimulating hormone level	0
+decreased circulating noradrenaline level	0
+increased circulating osteocalcin level	0
+decreased plasma anion gap	0
+abnormal circulating adrenaline level	0
+argininuria	0
+oroticaciduria	0
+increased urine phosphate level	0
+aminoaciduria	0
+abnormal urine calcium level	0
+increased urine antidiuretic hormone level	0
+decreased bile salt level	0
+increased circulating adrenocorticotropin level	0
+decreased circulating tumor necrosis factor level	0
+abnormal urine amino acid level	0
+ornithinuria	0
+cystinuria	0
+lysinuria	0
+crystalluria	0
+abnormal vitamin level	0
+decreased circulating chloride level	0
+decreased serotonin level	0
+increased circulating magnesium level	0
+abnormal circulating sodium level	0
+suppressed circulating follicle stimulating hormone level	0
+increased serine level	0
+decreased glycine level	0
+increased urine sodium level	0
+abnormal ion homeostasis	0
+abnormal renal sodium reabsorption	0
+abnormal body temperature homeostasis	0
+abnormal carbon dioxide level	0
+decreased urine phosphate level	0
+increased urine potassium level	0
+increased serotonin level	0
+colorless urine	0
+increased urine chloride ion level	0
+decreased circulating atrial natriuretic factor	0
+increased hydroxyproline level	0
+abnormal gas homeostasis	0
+increased adrenocorticotropin level	0
+increased urine magnesium level	0
+abnormal copper homeostasis	0
+decreased urine urea nitrogen level	0
+increased circulating alanine level	0
+decreased circulating bicarbonate level	0
+erythrocyturia	0
+decreased collagen level	0
+increased circulating manganese level	0
+increased brain manganese level	0
+abnormal manganese level	0
+increased liver manganese level	0
+increased circulating copper level	0
+increased susceptiblity to malignant hyperthermia	0
