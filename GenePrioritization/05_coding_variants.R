@@ -205,33 +205,33 @@ write.table(demage_variant, "coding.avinput", row.names = F,col.names = F,quote 
 
 ### Gene based test
 library(splitstackshape)
-hdl_gene_based <- read.table("/rprojectnb2/pelosolab/lipid_exomes/gene_based_results_2019Sep16/Results_HDL_ALL.txt",header = T)
+hdl_gene_based <- read.table("gene_based_results_2019Sep16/Results_HDL_ALL.txt",header = T)
 hdl_gene_based <- hdl_gene_based[hdl_gene_based$p.value <0.001,]
 hdl_gene_based <- hdl_gene_based[,c(1,17)]
 hdl_gene_based <- hdl_gene_based[!duplicated(hdl_gene_based),]
 
-ldl_gene_based <- read.table("/rprojectnb2/pelosolab/lipid_exomes/gene_based_results_2019Sep16/Results_LDL_ADJ_ALL.txt",header = T)
+ldl_gene_based <- read.table("lipid_exomes/gene_based_results_2019Sep16/Results_LDL_ADJ_ALL.txt",header = T)
 ldl_gene_based <- ldl_gene_based[ldl_gene_based$p.value <0.001,]
 ldl_gene_based <- ldl_gene_based[,c(1,17)]
 ldl_gene_based <- ldl_gene_based[!duplicated(ldl_gene_based),]
 
-nonHDL_gene_based <- read.table("/rprojectnb2/pelosolab/lipid_exomes/gene_based_results_2019Sep16/Results_NON_HDL_ALL.txt",header = T)
+nonHDL_gene_based <- read.table("lipid_exomes/gene_based_results_2019Sep16/Results_NON_HDL_ALL.txt",header = T)
 nonHDL_gene_based <- nonHDL_gene_based[nonHDL_gene_based$p.value <0.001,]
 nonHDL_gene_based <- nonHDL_gene_based[,c(1,17)]
 nonHDL_gene_based <- nonHDL_gene_based[!duplicated(nonHDL_gene_based),]
 
-logTG_gene_based <- read.table("/rprojectnb2/pelosolab/lipid_exomes/gene_based_results_2019Sep16/Results_TG_ALL.txt",header = T)
+logTG_gene_based <- read.table("lipid_exomes/gene_based_results_2019Sep16/Results_TG_ALL.txt",header = T)
 logTG_gene_based <- logTG_gene_based[logTG_gene_based$p.value <0.001,]
 logTG_gene_based <- logTG_gene_based[,c(1,17)]
 logTG_gene_based <- logTG_gene_based[!duplicated(logTG_gene_based),]
 
-tc_gene_based <- read.table("/rprojectnb2/pelosolab/lipid_exomes/gene_based_results_2019Sep16/Results_TOTAL_ADJ_ALL.txt",header = T)
+tc_gene_based <- read.table("lipid_exomes/gene_based_results_2019Sep16/Results_TOTAL_ADJ_ALL.txt",header = T)
 tc_gene_based <- tc_gene_based[tc_gene_based$p.value <0.001,]
 tc_gene_based <- tc_gene_based[,c(1,17)]
 tc_gene_based <- tc_gene_based[!duplicated(tc_gene_based),]
 
 # #######################################################################################
-# hdl <- read.table("/rprojectnb2/pelosolab/lipid_exomes/gene_based_results_2019Sep16/Results_HDL_ALL.txt",header = T)
+# hdl <- read.table("lipid_exomes/gene_based_results_2019Sep16/Results_HDL_ALL.txt",header = T)
 # hdl <- hdl[hdl$p.value <0.001,]
 # hdl <- hdl[,c(1,17)]
 # hdl <- hdl[!duplicated(hdl),]
@@ -250,7 +250,7 @@ tc_gene_based <- tc_gene_based[!duplicated(tc_gene_based),]
 # hdl_data$trait <- "HDL"
 # 
 # 
-# ldl <- read.table("/rprojectnb2/pelosolab/lipid_exomes/gene_based_results_2019Sep16/Results_LDL_ADJ_ALL.txt",header = T)
+# ldl <- read.table("lipid_exomes/gene_based_results_2019Sep16/Results_LDL_ADJ_ALL.txt",header = T)
 # ldl <- ldl[ldl$p.value <0.001,]
 # ldl <- ldl[,c(1,17)]
 # ldl <- ldl[!duplicated(ldl),]
@@ -268,7 +268,7 @@ tc_gene_based <- tc_gene_based[!duplicated(tc_gene_based),]
 # ldl_data = do.call(rbind, datalist)
 # ldl_data$trait <- "LDL"
 # 
-# nonHDL <- read.table("/rprojectnb2/pelosolab/lipid_exomes/gene_based_results_2019Sep16/Results_NON_HDL_ALL.txt",header = T)
+# nonHDL <- read.table("lipid_exomes/gene_based_results_2019Sep16/Results_NON_HDL_ALL.txt",header = T)
 # nonHDL <- nonHDL[nonHDL$p.value <0.001,]
 # nonHDL <- nonHDL[,c(1,17)]
 # nonHDL <- nonHDL[!duplicated(nonHDL),]
@@ -287,7 +287,7 @@ tc_gene_based <- tc_gene_based[!duplicated(tc_gene_based),]
 # nonHDL_data$trait <- "nonHDL"
 # 
 # 
-# logTG <- read.table("/rprojectnb2/pelosolab/lipid_exomes/gene_based_results_2019Sep16/Results_TG_ALL.txt",header = T)
+# logTG <- read.table("lipid_exomes/gene_based_results_2019Sep16/Results_TG_ALL.txt",header = T)
 # logTG <- logTG[logTG$p.value <0.001,]
 # logTG <- logTG[,c(1,17)]
 # logTG <- logTG[!duplicated(logTG),]
@@ -306,7 +306,7 @@ tc_gene_based <- tc_gene_based[!duplicated(tc_gene_based),]
 # logTG_data$trait <- "logTG"
 # 
 # 
-# tc <- read.table("/rprojectnb2/pelosolab/lipid_exomes/gene_based_results_2019Sep16/Results_TOTAL_ADJ_ALL.txt",header = T)
+# tc <- read.table("lipid_exomes/gene_based_results_2019Sep16/Results_TOTAL_ADJ_ALL.txt",header = T)
 # tc <- tc[tc$p.value <0.001,]
 # tc <- tc[,c(1,17)]
 # tc <- tc[!duplicated(tc),]
