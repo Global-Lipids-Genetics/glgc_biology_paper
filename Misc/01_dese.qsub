@@ -1,0 +1,108 @@
+#!/bin/bash -l
+
+#$ -P pelosolab
+#$ -pe omp 28
+
+#$ -l h_rt=48:00:00
+#$ -N dese
+#$ -m bea
+
+
+java -Xmx256g -jar ./kggsee/kggsee.jar \
+--keep-ref \
+--filter-maf-le 0.005 \
+--hwe-all 1E-8 \
+--nt 28 \
+--chrom-col CHROM \
+--pos-col POS_b37 \
+--p-col pvalue_GC \
+--gene-finemapping \
+--vcf-ref /rprojectnb2/pelosolab/yuxuan/references/ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.autosomes.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz \
+--sum-file /rprojectnb2/pelosolab/yuxuan/glgc/meta-analysis_AFR_EAS_EUR_HIS_SAS_LDL_INV_ALL_with_N_1.gz \
+--neargene 10000 \
+--multiple-testing bonf \
+--p-value-cutoff 0.05 \
+--expression-file /restricted/projectnb/pelosolab/yuxuan/glgc/DESE/kggsee/tutorials/GTEx_v8_TMM.gene.meanSE.txt.gz \
+--out geneAssoc_LDL
+
+java -Xmx256g -jar ./kggsee/kggsee.jar \
+--keep-ref \
+--filter-maf-le 0.005 \
+--hwe-all 1E-8 \
+--nt 28 \
+--chrom-col CHROM \
+--pos-col POS_b37 \
+--p-col pvalue_GC \
+--gene-finemapping \
+--vcf-ref /rprojectnb2/pelosolab/yuxuan/references/ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.autosomes.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz \
+--sum-file /rprojectnb2/pelosolab/yuxuan/glgc/meta-analysis_AFR_EAS_EUR_HIS_SAS_HDL_INV_ALL_with_N_1.gz \
+--neargene 10000 \
+--multiple-testing bonf \
+--p-value-cutoff 0.05 \
+--expression-file /restricted/projectnb/pelosolab/yuxuan/glgc/DESE/kggsee/tutorials/GTEx_v8_TMM.gene.meanSE.txt.gz \
+--out geneAssoc_HDL
+
+java -Xmx256g -jar ./kggsee/kggsee.jar \
+--keep-ref \
+--filter-maf-le 0.005 \
+--hwe-all 1E-8 \
+--nt 28 \
+--chrom-col CHROM \
+--pos-col POS_b37 \
+--p-col pvalue_GC \
+--gene-finemapping \
+--vcf-ref /rprojectnb2/pelosolab/yuxuan/references/ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.autosomes.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz \
+--sum-file /rprojectnb2/pelosolab/yuxuan/glgc/meta-analysis_AFR_EAS_EUR_HIS_SAS_logTG_INV_ALL_with_N_1.gz \
+--neargene 10000 \
+--multiple-testing bonf \
+--p-value-cutoff 0.05 \
+--expression-file /restricted/projectnb/pelosolab/yuxuan/glgc/DESE/kggsee/tutorials/GTEx_v8_TMM.gene.meanSE.txt.gz \
+--out geneAssoc_logTG
+
+java -Xmx256g -jar ./kggsee/kggsee.jar \
+--keep-ref \
+--filter-maf-le 0.005 \
+--hwe-all 1E-8 \
+--nt 28 \
+--chrom-col CHROM \
+--pos-col POS_b37 \
+--p-col pvalue_GC \
+--gene-finemapping \
+--vcf-ref /rprojectnb2/pelosolab/yuxuan/references/ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.autosomes.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz \
+--sum-file /rprojectnb2/pelosolab/yuxuan/glgc/meta-analysis_AFR_EAS_EUR_HIS_SAS_nonHDL_INV_ALL_with_N_1.gz \
+--neargene 10000 \
+--multiple-testing bonf \
+--p-value-cutoff 0.05 \
+--expression-file /restricted/projectnb/pelosolab/yuxuan/glgc/DESE/kggsee/tutorials/GTEx_v8_TMM.gene.meanSE.txt.gz \
+--out geneAssoc_nonHDL
+
+java -Xmx256g -jar ./kggsee/kggsee.jar \
+--keep-ref \
+--filter-maf-le 0.005 \
+--hwe-all 1E-8 \
+--nt 28 \
+--chrom-col CHROM \
+--pos-col POS_b37 \
+--p-col pvalue_GC \
+--gene-finemapping \
+--vcf-ref /rprojectnb2/pelosolab/yuxuan/references/ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.autosomes.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz \
+--sum-file /rprojectnb2/pelosolab/yuxuan/glgc/meta-analysis_AFR_EAS_EUR_HIS_SAS_TC_INV_ALL_with_N_1.gz \
+--neargene 10000 \
+--multiple-testing bonf \
+--p-value-cutoff 0.05 \
+--expression-file /restricted/projectnb/pelosolab/yuxuan/glgc/DESE/kggsee/tutorials/GTEx_v8_TMM.gene.meanSE.txt.gz \
+--out geneAssoc_TC
+
+# java -Xmx20g -jar ./kggsee/kggsee.jar \
+# --saved-ref VCFRefhg19 \
+# --chrom-col CHROM \
+# --pos-col POS_b37 \
+# --p-col pvalue_GC \
+# --gene-finemapping \
+# --vcf-ref /rprojectnb2/pelosolab/yuxuan/references/ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr21.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz \
+# --sum-file /rprojectnb2/pelosolab/lipid_results/glgc_2021/glgc_gwas_meta-analysis/trans-ancestry-by-chr/meta-analysis_AFR_EAS_EUR_HIS_SAS_LDL_INV_ALL_with_N_1_chr21.gz \
+# --neargene 10000 \
+# --multiple-testing bonf \
+# --p-value-cutoff 0.05 \
+# --expression-file /restricted/projectnb/pelosolab/yuxuan/glgc/DESE/kggsee/tutorials/GTEx_v8_TMM.gene.meanSE.txt.gz \
+# --out geneAssoc_chr21
