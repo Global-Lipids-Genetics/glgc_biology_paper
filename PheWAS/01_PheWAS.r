@@ -1,4 +1,3 @@
-R
 library(reshape)
 library(plyr)
 library(data.table)
