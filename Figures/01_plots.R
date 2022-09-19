@@ -7,7 +7,7 @@ library(ggsci)
 theme_set(theme_pubr())
 
 ####### Gold Standard Gene Set############
-load("/rprojectnb2/pelosolab/yuxuan/glgc/revision/glgc_mendelian_ind_97.Rdata")
+load("glgc/revision/glgc_mendelian_ind_97.Rdata")
 df <- new_table[,c(1:4,7:18)]
 ldl <- df[df$trait == "LDL",]
 nonhdl <- df[df$trait == "nonHDL",]
@@ -192,7 +192,7 @@ ggsave(plot = p, filename = "fig_s1a_v2.png",width = 48, height =32,dpi = 300)
 ######## Silver standard gene set #####
 rm(list = ls())
 
-load("/rprojectnb2/pelosolab/yuxuan/glgc/trans_ancestry_assign_ind.Rdata")
+load("glgc/trans_ancestry_assign_ind.Rdata")
 new_table <- trans_ancestry_assign_ind[!is.na(trans_ancestry_assign_ind$mouse_model_genes),]
 df <- new_table[,c(1:4,7:18)]
 ldl <- df[df$trait == "LDL",]
@@ -364,9 +364,9 @@ p <- annotate_figure(p,
 ggsave(plot = p, filename = "fig_s1b_v2.png",width = 48, height =32,dpi = 300)
 
 ######text mining
-textmine_pops_baseline_count <- read_csv("/rprojectnb2/pelosolab/yuxuan/pubmed/textmine/pops_baseline/textmine_pops_baseline_count.csv")
+textmine_pops_baseline_count <- read_csv("pubmed/textmine/pops_baseline/textmine_pops_baseline_count.csv")
 textmine_pops_baseline_count$Group <- "Reference_Gene_Set"
-textmine_pops_plus_count <- read_csv("/rprojectnb2/pelosolab/yuxuan/pubmed/textmine/pops_plus/textmine_pops_plus_count.csv")
+textmine_pops_plus_count <- read_csv("pubmed/textmine/pops_plus/textmine_pops_plus_count.csv")
 textmine_pops_plus_count$Group <- "Lipid_Gene_PoPS+"
 
 df <- rbind(textmine_pops_baseline_count,textmine_pops_plus_count)
@@ -395,5 +395,5 @@ wilcox.test(textmine_pops_baseline_count$Freq,textmine_pops_plus_count$Freq,pair
 # Plot
 
 
-ggsave(filename = "/rprojectnb2/pelosolab/yuxuan/glgc/revision/fig_s2.png",width = 8,height = 6)
+ggsave(filename = "glgc/revision/fig_s2.png",width = 8,height = 6)
 
