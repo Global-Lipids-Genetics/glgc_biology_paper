@@ -1,0 +1,5 @@
+To run coloc, you need the GTEx eQTL association files for each gene in each of 49 tissues.
+
+There are three scripts. Calling the first script will internally call the second and third scripts.
+
+Rscript runcolocalltissues.R
