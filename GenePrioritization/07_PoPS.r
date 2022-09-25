@@ -1,13 +1,13 @@
 #Step 1
-magma --bfile /1KG/ALL.phase3 --gene-annot /POPS_resources/magma_0kb.genes.annot --pval /chrALL_LDL_MR-MEGA.POPS.input.txt ncol=N --gene-model snp-wise=mean --out /LDL_MR-MEGA_magma
+system("magma --bfile /1KG/ALL.phase3 --gene-annot /POPS_resources/magma_0kb.genes.annot --pval /chrALL_LDL_MR-MEGA.POPS.input.txt ncol=N --gene-model snp-wise=mean --out /LDL_MR-MEGA_magma")
 
 #Step 2
 
-python /POPS/pops.feature_selection.py --features /POPS_resources/PoPS.features.txt.gz --gene_results /LDL_MR-MEGA_magma --out /LDL_MR-MEGA_pops_step2
+system("python /POPS/pops.feature_selection.py --features /POPS_resources/PoPS.features.txt.gz --gene_results /LDL_MR-MEGA_magma --out /LDL_MR-MEGA_pops_step2")
 
 #Step 3
 
-python /POPS/pops.predict_scores.py --gene_loc /POPS_resources/gene_loc.txt --gene_results /LDL_MR-MEGA_magma --features /POPS_resources/PoPS.features.txt.gz --selected_features /LDL_MR-MEGA_pops_step2.features --control_features /POPS_resources/control.features --chromosome ${SGE_TASK_ID} --out /LDL_MR-MEGA_POPS_chr${SGE_TASK_ID}
+system("python /POPS/pops.predict_scores.py --gene_loc /POPS_resources/gene_loc.txt --gene_results /LDL_MR-MEGA_magma --features /POPS_resources/PoPS.features.txt.gz --selected_features /LDL_MR-MEGA_pops_step2.features --control_features /POPS_resources/control.features --chromosome ${SGE_TASK_ID} --out /LDL_MR-MEGA_POPS_chr${SGE_TASK_ID}")
 
 #################################################
 #Need to get all genes within 500kb window of the index variants
